@@ -9,3 +9,9 @@
 
 -- Use this file to test things out, follow allow with classwork, etc.
 
+SELECT 
+    username, 
+    content
+FROM 
+    users 
+JOIN posts ON users.id = posts.user_id;

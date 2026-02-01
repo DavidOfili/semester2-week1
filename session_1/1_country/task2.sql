@@ -20,3 +20,5 @@ Country;
 5. SELECT Country FROM countries ORDER BY LiteracyPercent LIMIT 5;
 6. SELECT Country FROM countries WHERE Country LIKE 'C%' ORDER BY GDPPerCapita LIMIT 3;
 Country;
+7. SELECT Country FROM countries WHERE InfantMortalityPer1000 > 50 ORDER BY LiteracyPercent DESC LIMIT 1;
+8. SELECT Country FROM countries WHERE GDPPerCapita > 10000 ORDER BY PhonesPer1000 LIMIT 5;
